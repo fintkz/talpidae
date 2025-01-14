@@ -25,7 +25,7 @@ The logo, inspired by the Drilbur Pokémon, represents the app's focus on diggin
 - NumPy
 - Folium
 
-## Installation
+## How to use
 
 1. Clone the repository:
 
@@ -34,37 +34,35 @@ git clone https://github.com/your-username/route-optimization-app.git
 cd route-optimization-app
 ```
 
-2. Install the required dependencies:
 
-```
-uv install
-```
-
-## Usage
-
-1. Run the Streamlit app:
+2. Run the Streamlit app:
 
 ```
 uv run -m streamlit run app.py --server.runOnSave true
 ```
 
-2. Open the app in your web browser.
+3. Open the app in your web browser.
 
-3. Select the pickup and drop-off locations on the map.
+4. Select the pickup and drop-off locations on the map.
 
-4. Enter the package weight.
+5. Enter the package weight.
 
-5. Click the "Calculate Route and Price" button to see the optimal route and price.
+6. Click the "Calculate Route and Price" button to see the optimal route and price.
 
 ## File Structure
 
 - `app.py`: The main Streamlit app file containing the user interface and app logic.
 - `dijkstra.py`: Contains the `FleetOptimizer` class and Dijkstra's algorithm implementation for finding the optimal route.
-- `README.md`: This readme file providing an overview of the project.
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## TODO 
+
+- Add a flag in app.py to select cities
+- Add sophisticated handling for capacity considerations
+- Implement dijkstra and other algorithms instead of using networkx
 
 ## License
 
