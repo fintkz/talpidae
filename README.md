@@ -17,14 +17,6 @@ The logo, inspired by the Drilbur Pokémon, represents the app's focus on diggin
 - Haversine distance calculation for accurate distances between points
 - Price calculation based on distance, weight, and route overlap
 
-## Requirements
-
-- Python 3.7+
-- Streamlit
-- NetworkX
-- NumPy
-- Folium
-
 ## How to use
 
 1. Clone the repository:
