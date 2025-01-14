@@ -1,0 +1,22 @@
+[project]
+name = "talpidae"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "folium>=0.19.4",
+    "geopandas>=1.0.1",
+    "matplotlib>=3.10.0",
+    "networkx>=3.4.2",
+    "numpy>=2.2.1",
+    "osmnx>=2.0.1",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+    "streamlit-folium>=0.24.0",
+    "streamlit>=1.41.1",
+    "watchdog>=6.0.0",
+]
+
+[tool.uv.workspace]
+members = ["test"]
